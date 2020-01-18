@@ -1,0 +1,8 @@
+
+
+extends layout
+
+block content
+
+    - const up = h.moment().endOf('hour').fromNow();
+    p Hello, Ends in #{up}
